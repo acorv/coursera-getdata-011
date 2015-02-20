@@ -138,4 +138,3 @@ tidy<-summarise(grouped,
                 fBodyBodyGyroJerkMag_std=mean(fBodyBodyGyroJerkMag_std)
                 )
 
-write.table(file="tidy.txt", x=tidy, row.names = FALSE )
