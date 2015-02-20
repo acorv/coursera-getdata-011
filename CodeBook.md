@@ -1,0 +1,81 @@
+# Code book
+
+- **Activity** (character) Possible values:
+ - WALKING
+ - WALKING_UPSTAIRS
+ - WALKING_DOWNSTAIRS
+ - SITTING
+ - STANDING
+ - LAYING
+
+- **Subject** (numeric) Possible values: 1:30
+
+The following are processed values, grouped by **Activity** and **Subject**. 
+For the definition of the original features, refer to 'features_info.txt' in the Samsung data set:
+
+- **tBodyAcc_mean_X** (double) mean value of tBodyAcc-mean()-X 
+- **tBodyAcc_mean_Y** (double) mean value of tBodyAcc_mean()-Y 
+- **tBodyAcc_mean_Z** (double) mean value of tBodyAcc-mean()-Z 
+- **tBodyAcc_std_X** (double) mean value of tBodyAcc-std()-X 
+- **tBodyAcc_std_Y** (double) mean value of tBodyAcc-std()-Y 
+- **tBodyAcc_std_Z** (double) mean value of tBodyAcc-std()-Z 
+- **tGravityAcc_mean_X** (double) mean value of tGravityAcc-mean()-X 
+- **tGravityAcc_mean_Y** (double) mean value of tGravityAcc-mean()-Y 
+- **tGravityAcc_mean_Z** (double) mean value of tGravityAcc-mean()-Z 
+- **tGravityAcc_std_X** (double) mean value of tGravityAcc-std()-X
+- **tGravityAcc_std_Y** (double) mean value of tGravityAcc-std()-Y
+- **tGravityAcc_std_Z** (double) mean value of tGravityAcc-std()-Z
+- **tBodyAccJerk_mean_X** (double) mean value of tBodyAccJerk-mean()-X
+- **tBodyAccJerk_mean_Y** (double) mean value of tBodyAccJerk-mean()-Y
+- **tBodyAccJerk_mean_Z** (double) mean value of tBodyAccJerk-mean()-Z
+- **tBodyAccJerk_std_X** (double) mean value of tBodyAccJerk-std()-X
+- **tBodyAccJerk_std_Y** (double) mean value of tBodyAccJerk-std()-Y
+- **tBodyAccJerk_std_Z** (double) mean value of tBodyAccJerk-std()-Z
+- **tBodyGyro_mean_X** (double) mean value of tBodyGyro-mean()-X
+- **tBodyGyro_mean_X** (double) mean value of tBodyGyro-mean()-X
+- **tBodyGyro_mean_Z** (double) mean value of tBodyGyro-mean()-Z
+- **tBodyGyro_std_X** (double) mean value of tBodyGyro-std()-X
+- **tBodyGyro_std_Y** (double) mean value of tBodyGyro-std()-Y
+- **tBodyGyro_std_Z** (double) mean value of tBodyGyro-std()-Z
+- **tBodyGyroJerk_mean_X** (double) mean value of tBodyGyroJerk-mean()-X
+- **tBodyGyroJerk_mean_Y** (double) mean value of tBodyGyroJerk-mean()-Y 
+- **tBodyGyroJerk_mean_Z** (double) mean value of tBodyGyroJerk-mean()-Z
+- **tBodyGyroJerk_std_X** (double) mean value of tBodyGyroJerk-std()-X
+- **tBodyGyroJerk_std_Y** (double) mean value of tBodyGyroJerk-std()-Y
+- **tBodyGyroJerk_std_Z** (double) mean value of tBodyGyroJerk-std()-Z
+- **tBodyAccMag_mean** (double) mean value of tBodyAccMag-mean()
+- **tBodyAccMag_std** (double) mean value of tBodyAccMag-std()
+- **tGravityAccMag_mean** (double) mean value of tGravityAccMag-mean()
+- **tGravityAccMag_std** (double) mean value of tGravityAccMag-std()
+- **tBodyAccJerkMag_mean** (double) mean value of tBodyAccJerkMag-mean()
+- **tBodyAccJerkMag_std** (double) mean value of tBodyAccJerkMag-std()
+- **tBodyGyroMag_mean** (double) mean value of tBodyGyroMag-mean()
+- **tBodyGyroMag_std** (double) mean value of tBodyGyroMag-std()
+- **tBodyGyroJerkMag_mean** (double) mean value of tBodyGyroJerkMag-mean()
+- **tBodyGyroJerkMag_std** (double) mean value of tBodyGyroJerkMag-std()
+- **fBodyAcc_mean_X** (double) mean value of fBodyAcc-mean()-X
+- **fBodyAcc_mean_X** (double) mean value of fBodyAcc-mean()-X
+- **fBodyAcc_mean_X** (double) mean value of fBodyAcc-mean()-X
+- **fBodyAcc_std_X** (double) mean value of fBodyAcc-std()-X
+- **fBodyAcc_std_Y** (double) mean value of fBodyAcc-std()-Y
+- **fBodyAcc_std_Z** (double) mean value of fBodyAcc-std()-Z
+- **fBodyAccJerk_mean_X** (double) mean value of fBodyAccJerk-mean()-X
+- **fBodyAccJerk_mean_Y** (double) mean value of fBodyAccJerk-mean()-Y
+- **fBodyAccJerk_mean_Z** (double) mean value of fBodyAccJerk-mean()-Z
+- **fBodyAccJerk_std_X** (double) mean value of fBodyAccJerk-std()-X
+- **fBodyAccJerk_std_Y** (double) mean value of fBodyAccJerk-std()-Y
+- **fBodyAccJerk_std_Z** (double) mean value of fBodyAccJerk-std()-Z
+- **fBodyGyro_mean_X** (double) mean value of fBodyGyro-mean()-X
+- **fBodyGyro_mean_Y** (double) mean value of fBodyGyro-mean()-Y
+- **fBodyGyro_mean_Z** (double) mean value of fBodyGyro-mean()-Z
+- **fBodyGyro_std_X** (double) mean value of fBodyGyro-std()-X
+- **fBodyGyro_std_Y** (double) mean value of fBodyGyro-std()-Y
+- **fBodyGyro_std_Z** (double) mean value of fBodyGyro-std()-Z
+- **fBodyAccMag_mean** (double) mean value of fBodyAccMag-mean()
+- **fBodyAccMag_std** (double) mean value of fBodyAccMag-std()
+- **fBodyBodyAccJerkMag_mean** (double) mean value of fBodyBodyAccJerkMag-mean()
+- **fBodyBodyAccJerkMag_std** (double) mean value of fBodyBodyAccJerkMag-std()
+- **fBodyBodyGyroMag_mean** (double) mean value of fBodyBodyGyroMag-mean()
+- **fBodyBodyGyroMag_std** (double) mean value of fBodyBodyGyroMag-std()
+- **fBodyBodyGyroJerkMag_mean** (double) mean value of fBodyBodyGyroJerkMag-mean()
+- **fBodyBodyGyroJerkMag_std** (double) mean value of fBodyBodyGyroJerkMag-std()
