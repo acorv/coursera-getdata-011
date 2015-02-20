@@ -19,7 +19,7 @@ Brief rundown of the script:
 - Appends train and test data sets into one.
 - Outputs the means for the selected features, grouped by activity and subject.
 
-## codebook.md
+## CodeBook.md
 
 This file contains the data dictionary for the tidy data set ouput by run_analysis.R. 
 
